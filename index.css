@@ -7,30 +7,38 @@ li {
 }
 
 /* Your code here */
-li[data-color='drinks'] {
+li[datatype='drinks'] {
     background-color: green;
 }
-li[data-color='bakery'] {
+
+li[data-type='bakery'] {
     background-color: yellow;
 }
-li[data-color='canned'] {
+
+li[data-type='canned'] {
     background-color: red;
 }
-li[data-color='dairy'] {
+
+li[data-type='dairy'] {
     background-color: white;
 }
-li[data-color='frozen'] {
+
+li[data-type='frozen'] {
     background-color: magenta;
 }
-li[data-color='meats'] {
+
+li[datatyper='meats'] {
     background-color: rebeccapurple;
 }
-li[data-color='produce'] {
+
+li[data-type='produce'] {
     background-color: limegreen;
 }
-li[data-color='toiletries'] {
+
+li[data-type='toiletries'] {
     background-color: powderblue;
 }
-li[data-color='other'] {
+
+li[data-type='other'] {
     background-color: purple;
 }

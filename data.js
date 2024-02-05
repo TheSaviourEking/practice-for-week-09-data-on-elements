@@ -5,6 +5,6 @@ window.addEventListener('DOMContentLoaded', () => {
         event.preventDefault();
         const name = document.getElementById('name');
         const type = document.getElementById('type');
-        ul.innerHTML += `<li data-color = ${type.value}>${name.value}</li>`;
+        ul.innerHTML += `<li data-type = ${type.value}>${name.value}</li>`;
     })
 })
