@@ -7,3 +7,30 @@ li {
 }
 
 /* Your code here */
+li[data-color='drinks'] {
+    background-color: green;
+}
+li[data-color='bakery'] {
+    background-color: yellow;
+}
+li[data-color='canned'] {
+    background-color: red;
+}
+li[data-color='dairy'] {
+    background-color: white;
+}
+li[data-color='frozen'] {
+    background-color: magenta;
+}
+li[data-color='meats'] {
+    background-color: rebeccapurple;
+}
+li[data-color='produce'] {
+    background-color: limegreen;
+}
+li[data-color='toiletries'] {
+    background-color: powderblue;
+}
+li[data-color='other'] {
+    background-color: purple;
+}
